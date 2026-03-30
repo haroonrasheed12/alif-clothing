@@ -1,67 +1,29 @@
-body {
-  margin: 0;
-  font-family: Arial;
-  background: #f2f2f2;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-a {
-  display: inline-block;
-  padding: 10px 15px;
-  background: green;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
+<header>
+  <h1>About Us</h1>
+</header>
 
-header {
-  background: black;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
+<nav>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="about.html">About</a>
+  <a href="policy.html">Policy</a>
+</nav>
 
-header p {
-  margin-top: 5px;
-  font-size: 14px;
-}
+<section class="about">
+  <p>Alif Cotton House is a trusted family-run clothing store.</p>
+  <p>We provide quality clothing for men, women, and kids.</p>
 
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
+  <h3>Online Orders</h3>
+  <p>Order easily via WhatsApp and enjoy fast delivery 🚚</p>
+</section>
 
-.card {
-  background: white;
-  padding: 15px;
-  width: 200px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.card img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.card h3 {
-  margin: 10px 0;
-}
-
-.card p {
-  color: green;
-  font-weight: bold;
-}
-
-.card a {
-  display: inline-block;
-  margin-top: 10px;
-  background: green;
-  color: white;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 5px;
-}
+</body>
+</html>
