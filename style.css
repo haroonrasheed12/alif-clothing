@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f8f8;
+}
+
+header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+nav {
+  background: #222;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00ffae;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, black, gray);
+  color: white;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  width: 220px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a {
+  display: block;
+  margin: 10px;
+  background: black;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background: green;
+}
+
+.quotes, .contact {
+  text-align: center;
+  padding: 30px;
+}
