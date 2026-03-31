@@ -23,3 +23,17 @@ function filter(category) {
 function orderNow() {
   alert("Order placed! We will contact you 📞");
 }
+function sendOrder() {
+  let name = document.querySelector("input").value;
+  let phone = document.querySelectorAll("input")[1].value;
+  let address = document.querySelector("textarea").value;
+
+  let message = `Order Details:
+Name: ${name}
+Phone: ${phone}
+Address: ${address}`;
+
+  let url = "https://wa.me/919876543210?text=" + encodeURIComponent(message);
+
+  window.open(url, "_blank");
+}
