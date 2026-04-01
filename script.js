@@ -33,7 +33,7 @@ Name: ${name}
 Phone: ${phone}
 Address: ${address}`;
 
-  let url = "https://wa.me/919876543210?text=" + encodeURIComponent(message);
+  let url = "https://wa.me/9941339639?text=" + encodeURIComponent(message);
 
   window.open(url, "_blank");
 }
