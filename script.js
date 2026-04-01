@@ -44,3 +44,16 @@ function addToCart(name, price) {
   localStorage.setItem("cart", JSON.stringify(cart));
   alert(name + " added to cart 🛒");
 }
+function filter(category) {
+  let items = document.querySelectorAll(".card");
+
+  items.forEach(card => {
+    if (category === "all") {
+      card.style.display = "block";
+    } else {
+      card.style.display = card.classList.contains(category)
+        ? "block"
+        : "none";
+    }
+  });
+}
